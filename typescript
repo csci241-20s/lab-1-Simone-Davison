@@ -1,0 +1,2216 @@
+Script started on 2020-04-07 21:51:04-0700
+davisos2@linux-09:~$ exit
+exit
+
+Script done on 2020-04-07 21:51:34-0700
+Script started on 2020-04-07 21:51:44-0700
+davisos2@linux-09:~$ exit
+exit
+
+Script done on 2020-04-07 21:54:55-0700
+Script started on 2020-04-07 21:56:53-0700
+davisos2@linux-09:~$ ls
+commandline_workshop  Desktop  Documents  Downloads  Music  Pictures  Public  Templates  test.txt  typescript  Videos
+davisos2@linux-09:~$ cd/Dou[Kcu ][K[K[K[K[K[K[K d[KDocuments/
+davisos2@linux-09:~/Documents$ ;\[K[Kls
+CSCI141  CSCI145  CSCI301
+davisos2@linux-09:~/Documents$ CSCI 145[K[K[K[K145
+CSCI145: command not found
+davisos2@linux-09:~/Documents$ cd CSCI 145
+bash: cd: too many arguments
+davisos2@linux-09:~/Documents$ cd CSCI145
+davisos2@linux-09:~/Documents/CSCI145$ ls
+ CSCI241	    HW1			  lab2-Simone-Davison   lab5-Simone-Davison
+ HelloWorld.class   hw2			  lab3-Simone-Davison   Personal-Programs
+ HelloWorld.java    lab1-Simone-Davison   lab4-Simone-Davison  'W20_CSCI145_HW2 (Gerald)'
+davisos2@linux-09:~/Documents/CSCI145$ cd CSCI241
+davisos2@linux-09:~/Documents/CSCI145/CSCI241$ ls
+hw
+davisos2@linux-09:~/Documents/CSCI145/CSCI241$ mkdir lans[K[Kbs
+davisos2@linux-09:~/Documents/CSCI145/CSCI241$ ls
+hw  labs
+davisos2@linux-09:~/Documents/CSCI145/CSCI241$ cd labs
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs$ git clone https://github.com/csci241-20s/lab-1-Simone-Davison
+Cloning into 'lab-1-Simone-Davison'...
+remote: Enumerating objects: 14, done.[K
+remote: Counting objects:   7% (1/14)[Kremote: Counting objects:  14% (2/14)[Kremote: Counting objects:  21% (3/14)[Kremote: Counting objects:  28% (4/14)[Kremote: Counting objects:  35% (5/14)[Kremote: Counting objects:  42% (6/14)[Kremote: Counting objects:  50% (7/14)[Kremote: Counting objects:  57% (8/14)[Kremote: Counting objects:  64% (9/14)[Kremote: Counting objects:  71% (10/14)[Kremote: Counting objects:  78% (11/14)[Kremote: Counting objects:  85% (12/14)[Kremote: Counting objects:  92% (13/14)[Kremote: Counting objects: 100% (14/14)[Kremote: Counting objects: 100% (14/14), done.[K
+remote: Compressing objects:  12% (1/8)[Kremote: Compressing objects:  25% (2/8)[Kremote: Compressing objects:  37% (3/8)[Kremote: Compressing objects:  50% (4/8)[Kremote: Compressing objects:  62% (5/8)[Kremote: Compressing objects:  75% (6/8)[Kremote: Compressing objects:  87% (7/8)[Kremote: Compressing objects: 100% (8/8)[Kremote: Compressing objects: 100% (8/8), done.[K
+remote: Total 14 (delta 2), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:   7% (1/14)   Unpacking objects:  14% (2/14)   Unpacking objects:  21% (3/14)   Unpacking objects:  28% (4/14)   Unpacking objects:  35% (5/14)   Unpacking objects:  42% (6/14)   Unpacking objects:  50% (7/14)   Unpacking objects:  57% (8/14)   Unpacking objects:  64% (9/14)   Unpacking objects:  71% (10/14)   Unpacking objects:  78% (11/14)   Unpacking objects:  85% (12/14)   Unpacking objects:  92% (13/14)   Unpacking objects: 100% (14/14)   Unpacking objects: 100% (14/14), done.
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs$ ls
+lab-1-Simone-Davison
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs$ git config --global user,[K.name "Simone-Davison"
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs$ git congif -- [Kglobal user.email "davisos2@wwu,.[K[K.edu"
+git: 'congif' is not a git command. See 'git --help'.
+
+The most similar command is
+	config
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs$ git congif --global user.email "davisos2@wwu.edu"[C[1P[1P[1P[1@f[1@i[1@g
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs$ l[Kcd lab-1-Simone-Davison/
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ ls
+build.gradle  settings.gradle  src
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ touch writeup.txt
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ ls
+build.gradle  settings.gradle  src  writeup.txt
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git add writeup.txt 
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git o[Kv[Kcommit -m :[K"Added an empty write up! Awesome s auce."
+[master 2269558] Added an empty write up! Awesome sauce.
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git push -u
+Username for 'https://github.com': davisos       Simone-Davison
+Password for 'https://Simone-Davison@github.com': 
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  50% (1/2)   Writing objects: 100% (2/2)   Writing objects: 100% (2/2), 289 bytes | 289.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Simone-Davison
+   df0b8e8..2269558  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit [K[K[K[K[K[K[Kadd writeup.txt 
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit -m "Added in my first and lasr na[K[K[K[Kt name to  line 1"
+[master ae28885] Added in my first and last name to line 1
+ 1 file changed, 1 insertion(+)
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git add wi[Kriteup.txt 
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ status
+
+Command 'status' not found, did you mean:
+
+  command 'statup' from snap statup (0.79.91)
+  command 'states' from deb enscript
+  command 'qstatus' from deb gridengine-client
+
+See 'snap info <snapname>' for additional versions.
+
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ statusgit add writeup.txt [10Pstatusadd writeup.txt status[K[Ki[Kgit stu[Katus
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   writeup.txt[m
+
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit -m "Added in a hobby[K[K[K[K[K[K[K[K[K[K[K[Kd a hobby to line 2"
+[master eae8b30] Added a hobby to line 2
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git push -u
+Username for 'https://github.com': davisos2@wwu.edu
+Password for 'https://davisos2@wwu.edu@github.com': 
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects:  20% (1/5)   Compressing objects:  40% (2/5)   Compressing objects:  60% (3/5)   Compressing objects:  80% (4/5)   Compressing objects: 100% (5/5)   Compressing objects: 100% (5/5), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 577 bytes | 288.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+git To https://github.com/csci241-20s/lab-1-Simone-Davison
+   2269558..eae8b30  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ touch user[K[K[K[Kusername.txt
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ ls
+build.gradle  settings.gradle  src  username.txt  writeup.txt
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git add username.txt 
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit username.txt [K[K[K[K[K[K[K[K[K[K[K[K[K-m :[K"Assed[K[K[K[K[KCreated a new[K[K[K[K[K[K[K[K[Kred [K[K[K[Kted and as][K[K[Kadded names a [Knd userna mes"
+[master acf853c] Created and added names and usernames
+ 1 file changed, 1 insertion(+)
+ create mode 100644 username.txt
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git push - u[K[Ku
+Username for 'https://github.com': davisos2@wwi.  u.ed du
+Password for 'https://davisos2@wwu.edu@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 311 bytes | 311.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Simone-Davison
+   eae8b30..acf853c  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ touch dummy.txt
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git add dummy.txt 
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit -m "some thought [Kful words have been le fgt[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kle fy[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kle ft in myt [K[K wake."
+[master 9ace846] some thoughtful words have been left in my wake.
+ 1 file changed, 1 insertion(+)
+ create mode 100644 dummy.txt
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git push -u
+Username for 'https://github.com': davisos2@wwu.edi u
+Password for 'https://davisos2@wwu.edu@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 331 bytes | 331.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Simone-Davison
+   acf853c..9ace846  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git checkout
+Your branch is up to date with 'origin/master'.
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git reset
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ l[Kk[Kls
+build.gradle  dummy.txt  settings.gradle  src  username.txt  writeup.txt
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ #Seems suspecious
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git reset dummy.txt
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+davisos2@linux-09:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ exit
+exit
+
+Script done on 2020-04-07 22:53:33-0700
+Script started on 2020-04-09 10:07:40-0700
+davisos2@linux-03:~$ ms[Kv ~/Documents/typescript[K[K[K[K[K[Kscript ~/Do[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktypescript ~/Documents/CSCI145
+davisos2@linux-03:~$ cd Documents/[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+commandline_workshop  Desktop  Documents  Downloads  Music  Pictures  Public  Templates  test.txt  Videos
+davisos2@linux-03:~$ ls[K[Kcd Documents
+davisos2@linux-03:~/Documents$ cd CSCI145
+davisos2@linux-03:~/Documents/CSCI145$ ls
+ CSCI241	    HW1			  lab2-Simone-Davison   lab5-Simone-Davison  'W20_CSCI145_HW2 (Gerald)'
+ HelloWorld.class   hw2			  lab3-Simone-Davison   Personal-Programs
+ HelloWorld.java    lab1-Simone-Davison   lab4-Simone-Davison   typescript
+davisos2@linux-03:~/Documents/CSCI145$ mv typescript `[K~/Documentd[Ks[K[K[K[Kents/CSCI145/CSCI241
+davisos2@linux-03:~/Documents/CSCI145$ cd CSCI145/CSCI25[K41
+bash: cd: CSCI145/CSCI241: No such file or directory
+davisos2@linux-03:~/Documents/CSCI145$ ls
+ CSCI241	    HW1			  lab2-Simone-Davison   lab5-Simone-Davison
+ HelloWorld.class   hw2			  lab3-Simone-Davison   Personal-Programs
+ HelloWorld.java    lab1-Simone-Davison   lab4-Simone-Davison  'W20_CSCI145_HW2 (Gerald)'
+davisos2@linux-03:~/Documents/CSCI145$ [Kdavisos2@linux-03:~/Documents/CSCI145$ [Kdavisos2@linux-03:~/Documents/CSCI145$ [Kdavisos2@linux-03:~/Documents/CSCI145$ [Kdavisos2@linux-03:~/Documents/CSCI145$ cd CSCI241
+davisos2@linux-03:~/Documents/CSCI145/CSCI241$ ls
+hw  lab-1-Simone-Davison  labs	typescript
+davisos2@linux-03:~/Documents/CSCI145/CSCI241$ quit
+
+Command 'quit' not found, did you mean:
+
+  command 'qgit' from deb qgit
+  command 'quiz' from deb bsdgames
+  command 'quilt' from deb quilt
+  command 'quot' from deb quota
+  command 'luit' from deb x11-utils
+
+Try: apt install <deb name>
+
+davisos2@linux-03:~/Documents/CSCI145/CSCI241$ ls
+hw  lab-1-Simone-Davison  labs	typescript
+davisos2@linux-03:~/Documents/CSCI145/CSCI241$ w[Kexit
+exit
+
+Script done on 2020-04-09 10:19:44-0700
+Script started on 2020-04-09 10:31:30-0700
+davisos2@linux-03:~/Documents/CSCI145/CSCI241$ gt[Kit help
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+davisos2@linux-03:~/Documents/CSCI145/CSCI241$ cd lab
+lab-1-Simone-Davison/ labs/                 
+davisos2@linux-03:~/Documents/CSCI145/CSCI241$ cd lab-1-Simone-Davison/
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/lab-1-Simone-Davison$ ls
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/lab-1-Simone-Davison$ git o[Kcommit[K[K[K[K[K[Kpush[K[K[K[Kadd[K[K[Kadd dummy.txt
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/lab-1-Simone-Davison$ git adddum[K[K[K dummy.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit add[K[K[K[K[K[K[Kls
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/lab-1-Simone-Davison$ cd ..
+bash: cd: ..: No such file or directory
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/lab-1-Simone-Davison$ cd ~
+davisos2@linux-03:~$ /[Kcd ~Du[Kocu[K[K[K[K/Documents/CSCI145/CSCO[KI241
+davisos2@linux-03:~/Documents/CSCI145/CSCI241$ ls
+hw  labs  typescript
+davisos2@linux-03:~/Documents/CSCI145/CSCI241$ mv tyo[Kpescript /labs
+mv: cannot create regular file '/labs': Permission denied
+davisos2@linux-03:~/Documents/CSCI145/CSCI241$ mv typescript /labs/tye[Kpescript
+mv: cannot move 'typescript' to '/labs/typescript': No such file or directory
+davisos2@linux-03:~/Documents/CSCI145/CSCI241$ mv typescript /labs/typescript~/labs/typescript[C/labs/typescriptD/labs/typescripto/labs/typescriptc/labs/typescriptu/labs/typescriptments/labs/typescript[C/labs/typescriptC/labs/typescriptS/labs/typescriptI/labs/typescriptC/labs/typescriptI/labs/typescript1/labs/typescript4/labs/typescript5/labs/typescript[1P/labs/typescript[1P/labs/typescript[1P/labs/typescript[1P/labs/typescript[1P/labs/typescript[1P/labs/typescript[1P/labs/typescriptS/labs/typescriptC/labs/typescriptI/labs/typescript1/labs/typescript4/labs/typescript5/labs/typescript[C/labs/typescriptC/labs/typescriptS/labs/typescriptC/labs/typescriptI/labs/typescript2/labs/typescript4/labs/typescript1/labs/typescript
+davisos2@linux-03:~/Documents/CSCI145/CSCI241$ cd labs
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs$ ls
+lab-1-Simone-Davison  typescript
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs$ ls[K[Ktypescript[K[K[K[K[K[K[K[K[K[Kscript -a
+Script started, file is typescript
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs$ test
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs$ cd lab-1-Simone-Davison/
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ ls
+build.gradle  dummy.txt  settings.gradle  src  username.txt  writeup.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git add dummy.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit -m "Attempting to add file h[Kthen remoe[Kb[Kve  with revert [K[K[K[K[K[K[K[K reset"
+[master 322cd0b] Attempting to add file then remove with reset
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git push -u
+Username for 'https://github.com': davisos2@wwu.edi u
+Password for 'https://davisos2@wwu.edu@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 321 bytes | 321.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Simone-Davison
+   9ace846..322cd0b  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git reset
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git reset dummy.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git checkout
+Your branch is up to date with 'origin/master'.
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git reset
+Unstaged changes after reset:
+M	dummy.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git reset dummy.txt
+Unstaged changes after reset:
+M	dummy.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git reset dummy.txt
+Unstaged changes after reset:
+M	dummy.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git reset dummy.txt
+Unstaged changes after reset:
+M	dummy.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git reset --hard
+HEAD is now at 322cd0b Attempting to add file then remove with reset
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git checl[Kkout
+Your branch is up to date with 'origin/master'.
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git ch[Khecko9ut[K[K[Kut
+M	dummy.txt
+Your branch is up to date with 'origin/master'.
+davisos2@linux-03:~/DocumScript started on 2020-04-09 10:45:45-0700
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs$ test
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs$ cd lab-1-Simone-Davison/
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ ls
+build.gradle  dummy.txt  settings.gradle  src  username.txt  writeup.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git add dummy.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit -m "Attempting to add file h[Kthen remoe[Kb[Kve  with revert [K[K[K[K[K[K[K[K reset"
+[master 322cd0b] Attempting to add file then remove with reset
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git push -u
+Username for 'https://github.com': davisos2@wwu.edi u
+Password for 'https://davisos2@wwu.edu@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 321 bytes | 321.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Simone-Davison
+   9ace846..322cd0b  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git reset
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git reset dummy.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git checkout
+Your branch is up to date with 'origin/master'.
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git reset
+Unstaged changes after reset:
+M	dummy.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git reset dummy.txt
+Unstaged changes after reset:
+M	dummy.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git reset dummy.txt
+Unstaged changes after reset:
+M	dummy.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git reset dummy.txt
+Unstaged changes after reset:
+M	dummy.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git reset --hard
+HEAD is now at 322cd0b Attempting to add file then remove with reset
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git checl[Kkout
+Your branch is up to date with 'origin/master'.
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git ch[Khecko9ut[K[K[Kut
+M	dummy.txt
+Your branch is up to date with 'origin/master'.
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git ce[Kheckout dummy.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ mv dummy superdummy
+mv: cannot stat 'dummy': No such file or directory
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ mv dummy superdummy[C. superdummyt superdummyx superdummyt superdummy[C[C[C[C[C[C[C[C[C[C[C.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git checkout
+D	dummy.txt
+Your branch is up to date with 'origin/master'.
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ dummt[Kt[Ky[K[K[K[K[Kgit comm[K[K[K[Kh[Kcheckout dummy.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git blan[Kme
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --progress            Force progress reporting
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --indent-heuristic    Use an experimental heuristic to improve diffs
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git blame -s[K-score-debug
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --progress            Force progress reporting
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --indent-heuristic    Use an experimental heuristic to improve diffs
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git blame --score-debug[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ke --score-debug
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --progress            Force progress reporting
+    --score-ents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git ce[Kheckout dummy.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ mv dummy superdummy
+mv: cannot stat 'dummy': No such file or directory
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ mv dummy superdummy[C. superdummyt superdummyx superdummyt superdummy[C[C[C[C[C[C[C[C[C[C[C.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git checkout
+D	dummy.txt
+Your branch is up to date with 'origin/master'.
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ dummt[Kt[Ky[K[K[K[K[Kgit comm[K[K[K[Kh[Kcheckout dummy.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git blan[Kme
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --progress            Force progress reporting
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --indent-heuristic    Use an experimental heuristic to improve diffs
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git blame -s[K-score-debug
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --progress            Force progress reporting
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --indent-heuristic    Use an experimental heuristic to improve diffs
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git blame --score-debug[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ke --score-debug
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --progress            Force progress reporting
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --indent-heuristic    Use an experimental heuristic to improve diffs
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git blame --score-debug dummy.txt
+[?1h=322cd0b6 40 01 (Simone-Davison 2020-04-09 10:47:07 -0700 1) you are my personal punching bag[m
+322cd0b6 40 01 (Simone-Davison 2020-04-09 10:47:07 -0700 2) test test test[m
+[K[?1l>davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git blame --incramental dummy.txt
+error: unknown option `--incramental'
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --progress            Force progress reporting
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w        debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --indent-heuristic    Use an experimental heuristic to improve diffs
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git blame --score-debug dummy.txt
+[?1h=322cd0b6 40 01 (Simone-Davison 2020-04-09 10:47:07 -0700 1) you are my personal punching bag[m
+322cd0b6 40 01 (Simone-Davison 2020-04-09 10:47:07 -0700 2) test test test[m
+[K[?1l>davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git blame --incramental dummy.txt
+error: unknown option `--incramental'
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --progress            Force progress reporting
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --indent-heuristic    Use an experimental heuristic to improve diffs
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git blame --incramental dummy.txt[1P[1@e
+322cd0b6e6f57709b22fb5d19f3b414ac0facbf2 1 1 2
+author Simone-Davison
+author-mail <davisos2@wwu.edu>
+author-time 1586454427
+author-tz -0700
+committer Simone-Davison
+committer-mail <davisos2@wwu.edu>
+committer-time 1586454427
+committer-tz -0700
+summary Attempting to add file then remove with reset
+previous 9ace846aca2fa3b92db5cb71a76dc63fd1670076 dummy.txt
+filename dummy.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ i[Kgit log
+[?1h=[33mcommit 322cd0b6e6f57709b22fb5d19f3b414ac0facbf2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Simone-Davison <davisos2@wwu.edu>[m
+Date:   Thu Apr 9 10:47:07 2020 -0700[m
+[m
+    Attempting to add file then remove with reset[m
+[m
+[33mcommit 9ace846aca2fa3b92db5cb71a76dc63fd1670076[m[m
+Author: Simone-Davison <davisos2@wwu.edu>[m
+Date:   Tue Apr 7 22:49:25 2020 -0700[m
+[m
+    some thoughtful words have been left in my wake.[m
+[m
+[33mcommit acf853c368af7414555ccd0ca44fd2385ae71375[m[m
+Author: Simone-Davison <davisos2@wwu.edu>[m
+:[K[KDate:   Tue Apr 7 22:28:18 2020 -0700[m
+:[K[K[m
+:[K[K    Created and added names and usernames[m
+:[K[K:[K[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit eae8b30a0cc15b148ad881f7ba4332874112820f[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: Simone-Davison <davisos2@wwu.edu>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Tue Apr 7 22:25:17 2020 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Added a hobby to line 2[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit ae2888502cf904839001645e504f22978a6f2cc1[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: Simone-Davison <davisos2@wwu.edu>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Tue Apr 7 22:20:07 2020 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Added in my first and last name to line 1[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 226955829fd20d2479c01d5d842598e4758becfa[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: Simone-Davison <davisos2@wwu.edu>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Tue Apr 7 22:04:13 2020 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Added an empty write up! Awesome sauce.[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit df0b8e88a1a47b866422d37c7cb86fa8c421becc[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: swehrwein <swehrwein@gmail.com>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Tue Apr 7 20:44:34 2020 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Setting up GitHub Classroom Feedback[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit a261a886cc1d0601afaf3ac782e306d5a4f3f2d5[m[33m ([m[1;31morigin/feedback[m[33m)[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: swehrwein <swehrwein@gmail.com>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Tue Apr 7 20:44:34 2020 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Setting up GitHub Classroom Feedback[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 259e659067fe4c216ec670fbf75bef8f555f9f40[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: swehrwein <swehrwein@gmail.com>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Tue Apr 7 20:44:32 2020 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Initial commit[m
+:[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO            Ignore whitespace differences
+    --indent-heuristic    Use an experimental heuristic to improve diffs
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git blame --incramental dummy.txt[1P[1@e
+322cd0b6e6f57709b22fb5d19f3b414ac0facbf2 1 1 2
+author Simone-Davison
+author-mail <davisos2@wwu.edu>
+author-time 1586454427
+author-tz -0700
+committer Simone-Davison
+committer-mail <davisos2@wwu.edu>
+committer-time 1586454427
+committer-tz -0700
+summary Attempting to add file then remove with reset
+previous 9ace846aca2fa3b92db5cb71a76dc63fd1670076 dummy.txt
+filename dummy.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ i[Kgit log
+[?1h=[33mcommit 322cd0b6e6f57709b22fb5d19f3b414ac0facbf2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Simone-Davison <davisos2@wwu.edu>[m
+Date:   Thu Apr 9 10:47:07 2020 -0700[m
+[m
+    Attempting to add file then remove with reset[m
+[m
+[33mcommit 9ace846aca2fa3b92db5cb71a76dc63fd1670076[m[m
+Author: Simone-Davison <davisos2@wwu.edu>[m
+Date:   Tue Apr 7 22:49:25 2020 -0700[m
+[m
+    some thoughtful words have been left in my wake.[m
+[m
+[33mcommit acf853c368af7414555ccd0ca44fd2385ae71375[m[m
+Author: Simone-Davison <davisos2@wwu.edu>[m
+:[K[KDate:   Tue Apr 7 22:28:18 2020 -0700[m
+:[K[K[m
+:[K[K    Created and added names and usernames[m
+:[K[K:[K[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit eae8b30a0cc15b148ad881f7ba4332874112820f[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: Simone-Davison <davisos2@wwu.edu>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Tue Apr 7 22:25:17 2020 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Added a hobby to line 2[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit ae2888502cf904839001645e504f22978a6f2cc1[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: Simone-Davison <davisos2@wwu.edu>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Tue Apr 7 22:20:07 2020 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Added in my first and last name to line 1[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 226955829fd20d2479c01d5d842598e4758becfa[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: Simone-Davison <davisos2@wwu.edu>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Tue Apr 7 22:04:13 2020 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Added an empty write up! Awesome sauce.[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit df0b8e88a1a47b866422d37c7cb86fa8c421becc[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: swehrwein <swehrwein@gmail.com>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Tue Apr 7 20:44:34 2020 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Setting up GitHub Classroom Feedback[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit a261a886cc1d0601afaf3ac782e306d5a4f3f2d5[m[33m ([m[1;31morigin/feedback[m[33m)[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: swehrwein <swehrwein@gmail.com>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Tue Apr 7 20:44:34 2020 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Setting up GitHub Classroom Feedback[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 259e659067fe4c216ec670fbf75bef8f555f9f40[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: swehrwein <swehrwein@gmail.com>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Tue Apr 7 20:44:32 2020 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Initial commit[m
+:[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[m
+[m
+[m
+[33m[m[33m[m[1;31mack[m[33m)[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[m
+[m
+[m
+[33m[m[33m[m[1;31m[m[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[m
+[m
+[m
+[33m[m[33m[m[1;31m[m[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[m
+[m
+[m
+[33m[m[33m[m[1;31m[m[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[m
+[m
+[m
+[33m[m[33m[m[1;31m[m[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[m
+[m
+[m
+[33m[m[33m[m[1;31m[m[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[m
+[m
+[m
+[33m[m[33m[m[1;31m[m[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[m
+[m
+[m
+[33m[m[33m[m[1;31m[m[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[m
+[m
+[m
+[33m[m[33m[m[1;31m[m[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[m
+[m
+[m
+[33m[m[33m[m[1;31m[m[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[m
+[m
+[m
+[33m[m[33m[m[1;31mack[m[33m)[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit a261a886cc1d0601afaf3ac782e306d5a4f3f2d5[m[33m ([m[1;31morigin/feedback[m[33m)[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Tue Apr 7 20:44:34 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit 259e659067fe4c216ec670fbf75bef8f555f9f40[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Tue Apr 7 20:44:32 2020 -0700[m
+[m
+    Initial comm[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[m
+[m
+[m
+[33m[m[33m[m[1;31mack[m[33m)[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[m
+[m
+[m
+[33m[m[33m[m[1;31m[m[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[m
+[m
+[m
+[33m[m[33m[m[1;31m[m[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[m
+[m
+[m
+[33m[m[33m[m[1;31m[m[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[m
+[m
+[m
+[33m[m[33m[m[1;31m[m[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[m
+[m
+[m
+[33m[m[33m[m[1;31m[m[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[m
+[m
+[m
+[33m[m[33m[m[1;31m[m[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[m
+[m
+[m
+[33m[m[33m[m[1;31m[m[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[m
+[m
+[m
+[33m[m[33m[m[1;31m[m[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[m
+[m
+[m
+[33m[m[33m[m[1;31m[m[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[m
+[m
+[m
+[33m[m[33m[m[1;31mack[m[33m)[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit a261a886cc1d0601afaf3ac782e306d5a4f3f2d5[m[33m ([m[1;31morigin/feedback[m[33m)[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Tue Apr 7 20:44:34 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit 259e659067fe4c216ec670fbf75bef8f555f9f40[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Tue Apr 7 20:44:32 2020 -0700[m
+[m
+    Initial commit[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ #wow q saved me from that trap
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git diff
+[?1h=[1mdiff --git a/dummy.txt b/dummy.txt[m[m
+[1mindex 8089175..57613e2 100644[m[m
+[1m--- a/dummy.txt[m[m
+[1m+++ b/dummy.txt[m[m
+[36m@@ -1,2 +1,3 @@[m[m
+ you are my personal punching bag[m[m
+[31m-test test test[m[m
+\ No newline at end of file[m[m
+[32m+[m[32mtest test test[m[m
+[32m+[m[32mI now know the purpose for reset and checkout are for our personal machine to revert back to the previous commmit.[m[m
+\ No newline at end of file[m[m
+[K[?1l>davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git remove[K[K[K[K[K[K[K[K[K[Kgit commit writeup.txt
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+	[31mmodified:   dummy.txt[m
+
+Untracked files:
+	[31msuperdummy.txt[m
+
+no changes added to commit
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit writeup.txt
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+	[31mmodified:   dummy.txt[m
+
+Untracked files:
+	[31msuperdummy.txt[m
+
+no changes added to commit
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit writeup.txt
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[?1h=[?2004h[1;15r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[15;1H"~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison/.git/COMMIT_EDITMSG" 16L, 361C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[34m# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch [m[35mmaster[m
+[34m# Your branch is up to date with '[m[35morigin/master[m[34m'.
+#
+# [m[35mChanges to be committed:[m
+[34m#       [m[32mmodified[m[34m: [m[31m  writeup.txt[m
+[34m#
+# [m[35mChanges not staged for commit:[m
+[34m#       [m[32mmodified[m[34m: [m[31m  dummy.txt[m
+[34m#
+# [m[35mUntracked files:[m[15;105H1,0-1[9CTop[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;105H2,1  [2;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H6[6;1H[?25h[?25l[15;105H7[7;1H[?25h[?25l[15;105H8[8;1H[?25h[?25l[15;95H~@k[8;1H[15;95H   [9;1H[15;105H9[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#       [m[31msuperdummy.txt[m[15;1H[K[15;105H10,1[10C50%[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#[m[15;105H[K[15;105H11,1[10CBot[9;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H6[14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H1[9;1H[?25h[?25l[15;106H0[8;1H[?25h[?25l[15;105H9,1 [7;1H[?25h[?25l[15;105H8[6;1H[?25h[?25l[15;95H~@k[6;1H[15;95H   [6;1H[1;14r[1;1H[L[1;15r[1;1H[34m# Please enter the commit message for your changes. Lines starting[m[15;105H[K[15;105H7,1[11C50%[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[15;105H[K[15;105H6,1[11CTop[6;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H2[2;1H[?25h[?25l[15;105H1,0-1[1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;105H2,1  [2;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H6[6;1H[?25h[?25l[15;105H7[7;1H[?25h[?25l[15;105H8[8;1H[?25h[?25l[15;105H9[9;1H[?25h[?25l[15;95H~@k[9;1H[15;95H   [9;1H[1;14r[14;1H
+[1;15r[14;1H[34m#       [m[31msuperdummy.txt[m[15;105H[K[15;105H10,1[10C50%[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#[m[15;105H[K[15;105H11,1[10CBot[9;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H6[14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;it[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ #wow q saved me from that trap
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git diff
+[?1h=[1mdiff --git a/dummy.txt b/dummy.txt[m[m
+[1mindex 8089175..57613e2 100644[m[m
+[1m--- a/dummy.txt[m[m
+[1m+++ b/dummy.txt[m[m
+[36m@@ -1,2 +1,3 @@[m[m
+ you are my personal punching bag[m[m
+[31m-test test test[m[m
+\ No newline at end of file[m[m
+[32m+[m[32mtest test test[m[m
+[32m+[m[32mI now know the purpose for reset and checkout are for our personal machine to revert back to the previous commmit.[m[m
+\ No newline at end of file[m[m
+[K[?1l>davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git remove[K[K[K[K[K[K[K[K[K[Kgit commit writeup.txt
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+	[31mmodified:   dummy.txt[m
+
+Untracked files:
+	[31msuperdummy.txt[m
+
+no changes added to commit
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit writeup.txt
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+	[31mmodified:   dummy.txt[m
+
+Untracked files:
+	[31msuperdummy.txt[m
+
+no changes added to commit
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit writeup.txt
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[?1h=[?2004h[1;15r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[15;1H"~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison/.git/COMMIT_EDITMSG" 16L, 361C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[34m# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch [m[35mmaster[m
+[34m# Your branch is up to date with '[m[35morigin/master[m[34m'.
+#
+# [m[35mChanges to be committed:[m
+[34m#       [m[32mmodified[m[34m: [m[31m  writeup.txt[m
+[34m#
+# [m[35mChanges not staged for commit:[m
+[34m#       [m[32mmodified[m[34m: [m[31m  dummy.txt[m
+[34m#
+# [m[35mUntracked files:[m[15;105H1,0-1[9CTop[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;105H2,1  [2;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H6[6;1H[?25h[?25l[15;105H7[7;1H[?25h[?25l[15;105H8[8;1H[?25h[?25l[15;95H~@k[8;1H[15;95H   [9;1H[15;105H9[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#       [m[31msuperdummy.txt[m[15;1H[K[15;105H10,1[10C50%[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#[m[15;105H[K[15;105H11,1[10CBot[9;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H6[14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H1[9;1H[?25h[?25l[15;106H0[8;1H[?25h[?25l[15;105H9,1 [7;1H[?25h[?25l[15;105H8[6;1H[?25h[?25l[15;95H~@k[6;1H[15;95H   [6;1H[1;14r[1;1H[L[1;15r[1;1H[34m# Please enter the commit message for your changes. Lines starting[m[15;105H[K[15;105H7,1[11C50%[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[15;105H[K[15;105H6,1[11CTop[6;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H2[2;1H[?25h[?25l[15;105H1,0-1[1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;105H2,1  [2;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H6[6;1H[?25h[?25l[15;105H7[7;1H[?25h[?25l[15;105H8[8;1H[?25h[?25l[15;105H9[9;1H[?25h[?25l[15;95H~@k[9;1H[15;95H   [9;1H[1;14r[14;1H
+[1;15r[14;1H[34m#       [m[31msuperdummy.txt[m[15;105H[K[15;105H10,1[10C50%[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#[m[15;105H[K[15;105H11,1[10CBot[9;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H6[14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H1[9;1H[?25h[?25l[15;106H0[8;1H[?25h[?25l[15;105H9,1 [7;1H[?25h[?25l[15;105H8[6;1H[?25h[?25l[15;95H~@k[6;1H[15;95H   [6;1H[1;14r[1;1H[L[1;15r[1;1H[34m# Please enter the commit message for your changes. Lines starting[m[15;105H[K[15;105H7,1[11C50%[6;1H[?25h[?25l[15;105H8[7;1H[?25h[?25l[15;105H9[8;1H[?25h[?25l[15;105H10,1[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#[m[15;105H[K[15;105H11,1[10CBot[9;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;95H~@k[13;1H[15;95H   [14;1H[15;106H6[14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95Hq[14;1H[?25h[?25l[15;96H^M[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H1[9;1H[?25h[?25l[15;106H0[8;1H[?25h[?25l[15;105H9,1 [7;1H[?25h[?25l[15;95H~@k[7;1H[15;95H   [6;1H[15;105H8[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[1;1H[34m# Please enter the commit message for your changes. Lines starting[m[15;105H[K[15;105H7,1[11C50%[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[15;105H[K[15;105H6,1[11CTop[6;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H4[4;1H106H5[13;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H1[9;1H[?25h[?25l[15;106H0[8;1H[?25h[?25l[15;105H9,1 [7;1H[?25h[?25l[15;105H8[6;1H[?25h[?25l[15;95H~@k[6;1H[15;95H   [6;1H[1;14r[1;1H[L[1;15r[1;1H[34m# Please enter the commit message for your changes. Lines starting[m[15;105H[K[15;105H7,1[11C50%[6;1H[?25h[?25l[15;105H8[7;1H[?25h[?25l[15;105H9[8;1H[?25h[?25l[15;105H10,1[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#[m[15;105H[K[15;105H11,1[10CBot[9;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;95H~@k[13;1H[15;95H   [14;1H[15;106H6[14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95Hq[14;1H[?25h[?25l[15;96H^M[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H1[9;1H[?25h[?25l[15;106H0[8;1H[?25h[?25l[15;105H9,1 [7;1H[?25h[?25l[15;95H~@k[7;1H[15;95H   [6;1H[15;105H8[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[1;1H[34m# Please enter the commit message for your changes. Lines starting[m[15;105H[K[15;105H7,1[11C50%[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[15;105H[K[15;105H6,1[11CTop[6;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H2[2;1H[?25h[?25l[15;105H1,0-1[1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;105H2,1  [2;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H6[6;1H[?25h[?25l[15;105H7[7;1H[?25h[?25l[15;105H8[8;1H[?25h[?25l[15;95H~@k[8;1H[15;95H   [9;1H[15;105H9[9;1H[?25h[?25l[15;105H8[8;1H[?25h[?25l[15;105H7[7;1H[?25h[?25l[15;105H6[6;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H2[2;1H[?25h[?25l[15;95H~@k[2;1H[15;95H   [1;1H[15;105H1,0-1[1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;105H2,1  [2;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H6[6;1H[?25h[?25l[15;105H7[7;1H[?25h[?25l[15;105H8[8;1H[?25h[?25l[15;105H9[9;1H[?25h[?25l[15;95H~@k[9;1H[15;95H   [9;1H[1;14r[14;1H
+[1;15r[14;1H[34m#       [m[31msuperdummy.txt[m[15;105H[K[15;105H10,1[10C50%[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#[m[15;105H[K[15;105H11,1[10CBot[9;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H6[14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H1[9;1H[?25h[?25l[15;106H0[8;1H[?25h[?25l[15;105H9,1 [7;1H[?25h[?25l[15;105H8[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[1;1H[34m# Please enter the commit message for your changes. Lines starting[m[15;105H[K[15;105H7,1[11C50%[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[15;105H[K[15;105H6,1[11CTop[6;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H2[2;1H[?25h[?25l[15;105H1,0-1[1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;105H2,1  [2;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H6[6;1H[?25h[?25l[15;105H7[7;1H[?25h[?25l[15;105H8[8;1H[?25h[?25l[15;105H9[9;1H[?25h[?25l[15;95H~@k[9;1H[15;95H   [9;1H[1;14r[14;1H
+[1;15r[14;1H[34m#       [m[31msuperdummy.txt[m[15;105H[K[15;105H10,1[10C50%[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#[m[15;105H[K[15;105H11,1[10CBot[9;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H6[14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H1[9;1H[?25h[?25l[15;106H0[8;1H[?25h[?25l[15;105H9,1 [7;1H[?25h[?25l[15;95H~@k[7;1H[15;95H   [6;1H[15;105H8[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[1;1H[34m# Please enter the commit message for your changes. Lines starting[m[15;105H[K[15;105H7,1[11C50%[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[15;105H[K[15;105H6,1[11CTop[6;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H2[2;1H[?25h[?25l[15;105H1,0-1[1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95Hq[1;1H[?25h[?25l[15;96H^M[1;1H[15;95H   [1;1H[?25h[?25l[15;95Hq[1;1H[?25h[?25l[15;96H^M[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H2[2;1H[?25h[?25l[15;105H1,0-1[1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;105H2,1  [2;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H6[6;1H[?25h[?25l[15;105H7[7;1H[?25h[?25l[15;105H8[8;1H[?25h[?25l[15;95H~@k[8;1H[15;95H   [9;1H[15;105H9[9;1H[?25h[?25l[15;105H8[8;1H[?25h[?25l[15;105H7[7;1H[?25h[?25l[15;105H6[6;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H2[2;1H[?25h[?25l[15;95H~@k[2;1H[15;95H   [1;1H[15;105H1,0-1[1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;105H2,1  [2;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H6[6;1H[?25h[?25l[15;105H7[7;1H[?25h[?25l[15;105H8[8;1H[?25h[?25l[15;105H9[9;1H[?25h[?25l[15;95H~@k[9;1H[15;95H   [9;1H[1;14r[14;1H
+[1;15r[14;1H[34m#       [m[31msuperdummy.txt[m[15;105H[K[15;105H10,1[10C50%[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#[m[15;105H[K[15;105H11,1[10CBot[9;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H6[14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H1[9;1H[?25h[?25l[15;106H0[8;1H[?25h[?25l[15;105H9,1 [7;1H[?25h[?25l[15;105H8[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[1;1H[34m# Please enter the commit message for your changes. Lines starting[m[15;105H[K[15;105H7,1[11C50%[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[15;105H[K[15;105H6,1[11CTop[6;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H2[2;1H[?25h[?25l[15;105H1,0-1[1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;105H2,1  [2;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H6[6;1H[?25h[?25l[15;105H7[7;1H[?25h[?25l[15;105H8[8;1H[?25h[?25l[15;105H9[9;1H[?25h[?25l[15;95H~@k[9;1H[15;95H   [9;1H[1;14r[14;1H
+[1;15r[14;1H[34m#       [m[31msuperdummy.txt[m[15;105H[K[15;105H10,1[10C50%[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#[m[15;105H[K[15;105H11,1[10CBot[9;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H6[14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H1[9;1H[?25h[?25l[15;106H0[8;1H[?25h[?25l[15;105H9,1 [7;1H[?25h[?25l[15;95H~@k[7;1H[15;95H   [6;1H[15;105H8[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[1;1H[34m# Please enter the commit message for your changes. Lines starting[m[15;105H[K[15;105H7,1[11C50%[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[15;105H[K[15;105H6,1[11CTop[6;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H2[2;1H[?25h[?25l[15;105H1,0-1[1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95Hq[1;1H[?25h[?25l[15;96H^M[1;1H[15;95H   [1;1H[?25h[?25l[15;95Hq[1;1H[?25h[?25l[15;96H^M[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;105H2,1  [2;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H6[6;1H[?25h[?25l[15;105H7[7;1H[?25h[?25l[15;105H8[8;1H[?25h[?25l[15;95H~@k[8;1H[15;95H   [9;1H[15;105H9[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#       [m[31msuperdummy.txt[m[15;105H[K[15;105H10,1[10C50%[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#[m[15;105H[K[15;105H11,1[10CBot[9;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H6[14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95Hq[14;1H[?25h[?25l[15;96H^M[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l
+Type  :qa!  and press <Enter> to abandon all changes and exit Vim[15;105H[K[15;105H16,1[10CBot[14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95Hq[14;1H[?25h[?25l[15;96Ha[14;1H
+[1mrecording @a[m[15;13H[K[15;105H16,1[10CBot[14;1H[?25h[?25l[15;95H![14;1H[?25h[?25l[15;96H^M[14;1H[15;95H   [14;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H1[9;1H[?25h[?25l[15;106H0[8;1H[?25h[?25l[15;105H9,1 [7;1H[?25h[?25l[15;105H8[6;1H[?25h[?25l[15;95H~@k[6;1H[15;95H   [6;1H[1;14r[1;1H[L[1;15r[1;1H[34m# Please enter the commit message for your changes. Lines starting[m[15;105H[K[15;105H7,1[11C50%[6;1H[?25h[?25l[15;105H8[7;1H[?25h[?25l[15;105H9[8;1H[?25h[?25l[15;105H10,1[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#[m[15;105H[K[15;105H11,1[10CBot[9;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;95H~@k[13;1H[15;95H   [14;1H[15;106H6[14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l
+Type  :qa!  and press <Enter> to abandon all changes and exit Vim[15;105H[K[15;1H[1mrecording @a[m[15;13H[K[15;105H16,1[10CBot[14;1H[?25h[?25l[15;95H~@k[14;1H[15;105H2,1  [2;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H6[6;1H[?25h[?25l[15;105H7[7;1H[?25h[?25l[15;105H8[8;1H[?25h[?25l[15;95H~@k[8;1H[15;95H   [9;1H[15;105H9[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#       [m[31msuperdummy.txt[m[15;105H[K[15;105H10,1[10C50%[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#[m[15;105H[K[15;105H11,1[10CBot[9;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H6[14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95Hq[14;1H[?25h[?25l[15;96H^M[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l
+Type  :qa!  and press <Enter> to abandon all changes and exit Vim[15;105H[K[15;105H16,1[10CBot[14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95Hq[14;1H[?25h[?25l[15;96Ha[14;1H
+[1mrecording @a[m[15;13H[K[15;105H16,1[10CBot[14;1H[?25h[?25l[15;95H![14;1H[?25h[?25l[15;96H^M[14;1H[15;95H   [14;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H1[9;1H[?25h[?25l[15;106H0[8;1H[?25h[?25l[15;105H9,1 [7;1H[?25h[?25l[15;105H8[6;1H[?25h[?25l[15;95H~@k[6;1H[15;95H   [6;1H[1;14r[1;1H[L[1;15r[1;1H[34m# Please enter the commit message for your changes. Lines starting[m[15;105H[K[15;105H7,1[11C50%[6;1H[?25h[?25l[15;105H8[7;1H[?25h[?25l[15;105H9[8;1H[?25h[?25l[15;105H10,1[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#[m[15;105H[K[15;105H11,1[10CBot[9;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;95H~@k[13;1H[15;95H   [14;1H[15;106H6[14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l
+Type  :qa!  and press <Enter> to abandon all changes and exit Vim[15;105H[K[15;1H[1mrecording @a[m[15;13H[K[15;105H16,1[10CBot[14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95Hgq[14;1H[?25h[?25l[15;97Hgq[14;1H[15;95H    [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H1[9;1H[?25h[?25l[15;106H0[8;1H[?25h[?25l[15;105H9,1 [7;1H[?25h[?25l[15;95H~@k[7;1H[15;95H   [6;1H[15;105H8[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[1;1H[34m# Please enter the commit message for your changes. Lines starting[m[15;105H[K[15;105H7,1[11C50%[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[15;105H[K[15;105H6,1[11CTop[6;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H2[2;1H[?25h[?25l[15;105H1,0-1[1;1H[?25h[?25l[15;95H^[[1;1H[15;97HO[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;105H2,1  [2;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H6[6;1H[?25h[?25l[15;105H7[7;1H[?25h[?25l[15;105H8[8;1H[?25h[?25l[15;95H~@k[8;1H[15;95H   [9;1H[15;105H9[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#       [m[31msuperdummy.txt[m[15;105H[K[15;105H10,1[10C50%[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#[m[15;105H[K[15;105H11,1[10CBot[9;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H6[14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H^M[14;1H[15;95H  [14;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H1[9;1H[?25h[?25l[15;106H0[8;1H[?25h[?25l[15;105H9,1 [7;1H[?25h[?25l[15;105H8[6;1H[?25h[?25l[15;95H~@k[6;1H[15;95H   [6;1H[1;14r[1;1H[L[1;15r[1;1H[34m# Please enter the commit message for your changes. Lines starting[m[15;105H[K[15;105H7,1[11C50%[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[15;105H[K[15;105H6,1[11CTop[6;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H2[2;1H[?25h[?25l[15;105H1,0-1[1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;105H2,1  [2;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H6[6;1H[?25h[?25l[15;105H7[7;1H[?25h[?25l[15;105H8[8;1H[?25h[?25l[15;105H9[9;1H[?25h[?25l[15;95H~@k[9;1H[15;95H   [9;1H[1;14r[14;1H
+[1;15r[14;1H[34m#       [m[31msuperdummy.txt[m[15;105H[K[15;105H10,1[10C50%[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#[m[15;105H[K[15;105H11,1[10CBot[9;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H6[14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H1[9;1H[?25h[?25l[15;106H0[8;1H[?25h[?25l[15;105H9,1 [7;1H[?25h[?25l[15;95H~@k[7;1H[15;95H   [6;1H[15;105H8[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[1;1H[34m# Please enter the commit message for your changes. Lines starting[m[15;105H[K[15;105H7,1[11C50%[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[15;105H[K[15;105H6,1[11CTop[6;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H2[2;1H[?25h[?25l[15;105H1,0-1[1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95Hq[1;1H[15;1H[K[1;1H[15;105H1,0-1[9CTop[1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [2;1H[15;105H2,1  [2;1H[?25h[?25l[15;95H~@k[2;1H[15;95H   [[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95Hgq[14;1H[?25h[?25l[15;97Hgq[14;1H[15;95H    [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H1[9;1H[?25h[?25l[15;106H0[8;1H[?25h[?25l[15;105H9,1 [7;1H[?25h[?25l[15;95H~@k[7;1H[15;95H   [6;1H[15;105H8[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[1;1H[34m# Please enter the commit message for your changes. Lines starting[m[15;105H[K[15;105H7,1[11C50%[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[15;105H[K[15;105H6,1[11CTop[6;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H2[2;1H[?25h[?25l[15;105H1,0-1[1;1H[?25h[?25l[15;95H^[[1;1H[15;97HO[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;105H2,1  [2;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H6[6;1H[?25h[?25l[15;105H7[7;1H[?25h[?25l[15;105H8[8;1H[?25h[?25l[15;95H~@k[8;1H[15;95H   [9;1H[15;105H9[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#       [m[31msuperdummy.txt[m[15;105H[K[15;105H10,1[10C50%[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#[m[15;105H[K[15;105H11,1[10CBot[9;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H6[14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H^M[14;1H[15;95H  [14;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H1[9;1H[?25h[?25l[15;106H0[8;1H[?25h[?25l[15;105H9,1 [7;1H[?25h[?25l[15;105H8[6;1H[?25h[?25l[15;95H~@k[6;1H[15;95H   [6;1H[1;14r[1;1H[L[1;15r[1;1H[34m# Please enter the commit message for your changes. Lines starting[m[15;105H[K[15;105H7,1[11C50%[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[15;105H[K[15;105H6,1[11CTop[6;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H2[2;1H[?25h[?25l[15;105H1,0-1[1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;105H2,1  [2;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H6[6;1H[?25h[?25l[15;105H7[7;1H[?25h[?25l[15;105H8[8;1H[?25h[?25l[15;105H9[9;1H[?25h[?25l[15;95H~@k[9;1H[15;95H   [9;1H[1;14r[14;1H
+[1;15r[14;1H[34m#       [m[31msuperdummy.txt[m[15;105H[K[15;105H10,1[10C50%[9;1H[?25h[?25l[1;14r[14;1H
+[1;15r[14;1H[34m#[m[15;105H[K[15;105H11,1[10CBot[9;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H6[14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;95H~@k[14;1H[15;95H   [14;1H[?25h[?25l[15;106H5[13;1H[?25h[?25l[15;106H4[12;1H[?25h[?25l[15;106H3[11;1H[?25h[?25l[15;106H2[10;1H[?25h[?25l[15;106H1[9;1H[?25h[?25l[15;106H0[8;1H[?25h[?25l[15;105H9,1 [7;1H[?25h[?25l[15;95H~@k[7;1H[15;95H   [6;1H[15;105H8[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[1;1H[34m# Please enter the commit message for your changes. Lines starting[m[15;105H[K[15;105H7,1[11C50%[6;1H[?25h[?25l[1;14r[1;1H[L[1;15r[15;105H[K[15;105H6,1[11CTop[6;1H[?25h[?25l[15;105H5[5;1H[?25h[?25l[15;105H4[4;1H[?25h[?25l[15;105H3[3;1H[?25h[?25l[15;105H2[2;1H[?25h[?25l[15;105H1,0-1[1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95Hq[1;1H[15;1H[K[1;1H[15;105H1,0-1[9CTop[1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [2;1H[15;105H2,1  [2;1H[?25h[?25l[15;95H~@k[2;1H[15;95H   [3;1H[15;105H3[3;1H[?25h[?25l[15;95H~@k[3;1H[15;95H   [2;1H[15;105H2[2;1H[?25h[?25l[15;95H~@k[2;1H[15;95H   [1;1H[15;105H1,0-1[1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95H~@k[1;1H[15;95H   [1;1H[?25h[?25l[15;95Hq[1;1H[?25h[?25l[15;96Hq[1;1H[15;1H[1mrecording @q[m[15;95H[K[15;105H1,0-1[9CTop[1;1H[?25h[?25l[15;95Hq[1;1H[15;1H[K[1;1H[15;105H1,0-1[9CTop[1;1H[?25h[?25l[15;95Hq[1;1H[?25h[?25l[15;96Hq[1;1H[15;1H[1mrecording @q[m[15;95H[K[15;105H1,0-1[9CTop[1;1H[?25h[?25l[15;95Hq[1;1H[15;1H[K[1;1H[15;105H1,0-1[9CTop[1;1H[?25h[?25l[15;95Hq[1;1H[?25h[?25l[15;96Hq[1;1H[15;1H[1mrecording @q[m[15;95H[K[15;105H1,0-1[9CTop[1;1H[?25h[?25l[15;95Hq[1;1H[15;1H[K[1;1H[15;105H1,0-1[9CTop[1;1H[?25h[?25l[15;95Hq[1;1H[?25h[?25l[15;96Hu[1;1H[15;1H[1mrecording @u[m[15;95H[K[15;105H1,0-1[9CTop[1;1H[?25h[?25l[15;95Hq[1;1H[15;1H[K[1;1H[15;105H1,0-1[9CTop[1;1H[?25h[?25l[15;95Hg[1;1H[?25h[?25l[15;95H [1;1H[15;95Hgd[1;1H[15;1H[97m[41mE349: No identifier under cursor[m[15;95H[K[1;1H[15;105H1,0-1[9CTop[1;1H[?25h[?25l[15;1H1 change; before #1  36 seconds ago[15;105H[K[1;14r[1;1H[2M[1;15r[13;1H[34m#       [m[31msuperdummy.txt[m
+[34m#[m[15;1H[K[15;105H16,1[10CBot[14;1H[?25h[?25l[15;95Hi[14;1H[15;95H [14;1H
+[1m-- INSERT --[m[15;105H[K[15;105H16,1[10CBot[14;1H[?25h[?25lq#[15;108H2[14;2H[?25h[?25lg#[15;108H3[14;3H[?25h[?25ld#[15;108H4[14;4H[?25h[?25lq#[15;108H5[14;5H[?25h[?25lq#[15;108H6[14;6H[?25h[?25l#[14;6H[K[15;108H5[14;5H[?25h[?25l#[14;5H[K[15;108H4[14;4H[?25h[?25l#[14;4H[K[15;108H3[14;3H[?25h[?25l#[14;3H[K[15;108H2[14;2H[?25h[?25l[34m#[m[14;2H[K[15;108H1[14;1H[?25h[?25l[13;23H[31m#[m
+[94m~                                                                                                                         [m[15;106H5,17-23[13;23H[?25h[?25l[13;23H[K[14;1H[34m#[m[14;2H[K[15;106H6,1    [14;1H[?25h[?25l[1;14r[14;1H
+[1;15r[13;1H[K[14;1H[34m#[m[15;105H[K[15;105H17,1[10CBot[14;1H[?25h[?25l[15;106H6[13;1H[?25h[?25l[15;106H7[14;1H[?25h[?25l[13;1H[34m#[m
+[94m~                                                                                                                         [m[15;106H6[13;1H[?25h[?25l[12;23H[31m#[m
+[94m~                                                                                                                         [m[15;106H5,17-23[12;23H[?25h[?25l[31m  #[m[15;109H8-25[12;25H[?25h[?25l[31m        #[m[15;109H9-33[12;33HScript started on 2020-04-09 12:10:34-0700
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs$ exitgit branch -d question3[4Pmerge[C[C[C[C[C[C[C[C[C[Ccheckout masterpush --set-upstream origin question3u[Kcommit -m "Adding an edited write up to questions3 branch"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd writeup.txt[Kcheckout -b question3[1Prm superdummy.txt -f[13Ppush -ucommit -m "I'm going to remove this one completely and not cach it  like I did with dummy"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd superdummy.txt[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Krm superdummy -fdummy.txt --cachedshed[K[6Pstatuscheckout writeup.txt[4Pdiff[C[C[C[C[C[C[C[C[C[C[C[C#I got stuck somehow!ls[Kcd CSCI241/labs/lab-1-Simone-Davison/ls[K#I got stuck somehow!ls[Kcd CSCI241/labs/lab-1-Simone-Davison/[15Pgit commit writeup.txtcd CSCI241/labs/lab-1-Simone-Davison/ls[K#I got stuck somehow!
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs$ #I got stuck somehow!exit[Kgit branch -d question3[4Pmerge[C[C[C[C[C[C[C[C[C[Ccheckout masterpush --set-upstream origin question3u[Kcommit -m "Adding an edited write up to questions3 branch"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd writeup.txt[Kcheckout -b question3[1Prm superdummy.txt -f[13Ppush -ucommit -m "I'm going to remove this one completely and not cach it  like I did with dummy"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd superdummy.txt[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Krm superdummy -fdummy.txt --cachedshed[K[6Pstatuscheckout writeup.txt[4Pdiff[C[C[C[C[C[C[C[C[C[C[C[C#I got stuck somehow![1Pgit diff writeup.txt
+Not a git repository
+To compare two paths outside a working tree:
+usage: git diff [--no-index] <path> <path>
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs$ git diff writeup.txt#I got stuck somehow!exit[Kgit branch -d question3[4Pmerge[C[C[C[C[C[C[C[C[C[Ccheckout masterpush --set-upstream origin question3u[Kcommit -m "Adding an edited write up to questions3 branch"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd writeup.txt[Kcheckout -b question3[1Prm superdummy.txt -f[13Ppush -ucommit -m "I'm going to remove this one completely and not cach it  like I did with dummy"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd superdummy.txt[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "I'm going to remove this one completely and not cach it  like I did with dummy"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush -u[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm superdummy.txt -fcheckout -b question3[6Padd writeup.txtcommit -m "Adding an edited write up to questions3 branch"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd writeup.txt[Kcheckout -b question3[1Prm superdummy.txt -f[13Ppush -ucommit -m "I'm going to remove this one completely and not cach it  like I did with dummy"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd superdummy.txt[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Krm superdummy -fdummy.txt --cachedshed[K[6Pstatuscheckout writeup.txt[4Pdiff[C[C[C[C[C[C[C[C[C[C[C[C#I got stuck somehow!ls[K#I got stuck somehow![1Pgit diff writeup.txt[4@checkout[C[C[C[C[C[C[C[C[C[C[C[C
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs$ git checkout writeup.txt[4Pdiff[C[C[C[C[C[C[C[C[C[C[C[C#I got stuck somehow!exit[Kgit branch -d question3[4Pmerge[C[C[C[C[C[C[C[C[C[Ccheckout masterpush --set-upstream origin question3u[Kcommit -m "Adding an edited write up to questions3 branch"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd writeup.txt[Kcheckout -b question3[1Prm superdummy.txt -f[13Ppush -ucommit -m "I'm going to remove this one completely and not cach it  like I did with dummy"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd superdummy.txt[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Krm superdummy -fdummy.txt --cachedshed[K[6Pstatuscheckout writeup.txt[4Pdiff[C[C[C[C[C[C[C[C[C[C[C[C#I got stuck somehow!ls[K#I got stuck somehow![1Pgit diff writeup.txt[4@checkout[C[C[C[C[C[C[C[C[C[C[C[Cstatus[K
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs$ git[K[K[Kcd /[Klab-1-Simone-Davison/
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ cd lab-1-Simone-Davison/[14Pgit statuscheckout writeup.txt[4Pdiff[C[C[C[C[C[C[C[C[C[C[C[C#I got stuck somehow!exit[Kgit branch -d question3[4Pmerge[C[C[C[C[C[C[C[C[C[Ccheckout masterpush --set-upstream origin question3u[Kcommit -m "Adding an edited write up to questiions3 branch"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Padd writeup.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccheckout -b question3[1Prm superdummy.txt -f[13Ppush -ucommit -m "I'm going to remove this one compleetely and not cach it like I did with dummy"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[27Padd superdummy.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Krm superdummy -fdummy.txt --cachedshed[K[6Pstatuscheckout writeup.txt[4Pdiff[C[C[C[C[C[C[C[C[C[C[C[C#I got stuck somehow!
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ t[K#I got stuck somehow!cd lab-1-Simone-Davison/[14Pgit statuscheckout writeup.txt[4Pdiff[C[C[C[C[C[C[C[C[C[C[C[C#I got stuck somehow!exit[Kgit branch -d question3[4Pmerge[C[C[C[C[C[C[C[C[C[Ccheckout masterpush --set-upstream origin question3u[Kcommit -m "Adding an edited write up to questiions3 branch"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Padd writeup.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccheckout -b question3[1Prm superdummy.txt -f[13Ppush -ucommit -m "I'm going to remove this one compleetely and not cach it like I did with dummy"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[27Padd superdummy.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Krm superdummy -fdummy.txt --cachedshed[K[6Pstatuscheckout writeup.txt[4Pdiff[C[C[C[C[C[C[C[C[C[C[C[C#I got stuck somehow!ls[K#I got stuck somehow![1Pgit diff writeup.txt
+[?1h=[K[?1l>davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git diff writeup.txt
+[?1h=[K[?1l>davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ ls
+build.gradle  dummy.txt  settings.gradle  src  username.txt  writeup.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ lsgit diff writeup.txt
+[?1h=[K[?1l>davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git diff writeup.txt
+[?1h=[1mdiff --git a/writeup.txt b/writeup.txt[m[m
+[1mindex f0a0358..8cf4e42 100644[m[m
+[1m--- a/writeup.txt[m[m
+[1m+++ b/writeup.txt[m[m
+[36m@@ -1,3 +1,3 @@[m[m
+ Simone Davison[m[m
+[31m-Hobby: learning to do the splits currently[m[m
+[32m+[m[32mHobby: learning to do the splits currently :)[m[m
+ Favorite song: Show Yourself by Idina Menzel, Evan Rachel Wood[m[m
+\ No newline at end of file[m[m
+[K[?1l>davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git co[K[Kcon[K[Kon[K[K[Kcheckout writeup.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git checkout writeup.txt[4Pdiff[C[C[C[C[C[C[C[C[C[C[C[Cls[Kgit diff writeup.txt#I got stuck somehow!cd lab-1-Simone-Davison/[14Pgit statuscheckout writeup.txt[4Pdiff[C[C[C[C[C[C[C[C[C[C[C[C#I got stuck somehow!exit[Kgit branch -d question3[4Pmerge[C[C[C[C[C[C[C[C[C[Ccheckout masterpush --set-upstream origin question3u[Kcommit -m "Adding an edited write up to questiions3 branch"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Padd writeup.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccheckout -b question3[1Prm superdummy.txt -f[13Ppush -ucommit -m "I'm going to remove this one compleetely and not cach it like I did with dummy"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[27Padd superdummy.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Krm superdummy -fdummy.txt --cachedshed[K[6Pstatuscheckout writeup.txt[4Pdiff[C[C[C[C[C[C[C[C[C[C[C[C#I got stuck somehow!ls[K#I got stuck somehow![1Pgit diff writeup.txt[4@checkout[C[C[C[C[C[C[C[C[C[C[C[Cstatus[K
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mdummy.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ tgit statuscheckout writeup.txt[4Pdiff[C[C[C[C[C[C[C[C[C[C[C[Cls[Kgit diff writeup.txt#I got stuck somehow!cd lab-1-Simone-Davison/[14Pgit statuscheckout writeup.txt[4Pdiff[C[C[C[C[C[C[C[C[C[C[C[C#I got stuck somehow!exit[Kgit branch -d question3[4Pmerge[C[C[C[C[C[C[C[C[C[Ccheckout masterpush --set-upstream origin question3u[Kcommit -m "Adding an edited write up to questiions3 branch"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Padd writeup.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccheckout -b question3[1Prm superdummy.txt -f[13Ppush -ucommit -m "I'm going to remove this one compleetely and not cach it like I did with dummy"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[27Padd superdummy.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Krm superdummy -fdummy.txt --cachedshed[K[6Pstatuscheckout writeup.txt[4Pdiff[C[C[C[C[C[C[C[C[C[C[C[C#I got stuck somehow!ls[K#I got stuck somehow![1Pgit diff writeup.txt[4@checkout[C[C[C[C[C[C[C[C[C[C[C[Cstatus[Krm dummy.txt --cashedched[5Psuperdummy -f[2Padd superdummy.txtcommit -m "I'm going to remove this one compleetely and not cach it like I did with dummy"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush -u[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm superdummy.txt -fcheckout -b question3[6Padd writeup.txtcommit -m "Adding an edited write up to questiions3 branch"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush -u[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-set-upstream origin question3[21Pcheckout mastermerge question3[4@branch -d[C[C[C[C[C[C[C[C[C[Cexit[K#I got stuck somehow![1Pgit diff writeup.txt[4@checkout[C[C[C[C[C[C[C[C[C[C[C[Cstatus[Kcd lab-1-Simone-Davison/[3P#I got stuck somehow![1Pgit diff writeup.txtls[Kgit diff writeup.txt[4@checkout[C[C[C[C[C[C[C[C[C[C[C[Cstatus[Kt[K[Kgit commit [K[K[K[K[K[K[Kadd dummy.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit "Had to exit the terminal and start [K[K[K[K[K[K[K[K[K[K[K[Kl and forc[Kgot t o start the script again so I'm trying to replicate what Id[K did."
+error: pathspec 'Had to exit the terminal and forgot to start the script again so I'm trying to replicate what I did.' did not match any file(s) known to git.
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit "Had to exit the terminal and forgot too start the script again so I'm trying to replicate what I did."[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-"Had to exit the terminal and forgot t[1@o[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm"Had to exit the terminal and forgot [1@t[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "Had to exit the terminal and forgot[1@ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[master 9bc70e9] Had to exit the terminal and forgot to start the script again so I'm trying to replicate what I did.
+ 1 file changed, 3 insertions(+)
+ create mode 100644 dummy.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git push -u
+Username for 'https://github.com': davisos2@wwu.edu
+Password for 'https://davisos2@wwu.edu@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 438 bytes | 438.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Simone-Davison
+   0012793..9bc70e9  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ -[Kgit rm dummy --cach
+fatal: pathspec 'dummy' did not match any files
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git rm dummy --cach[8Ppush -urm dummy --cach. --cacht --cachx --cacht --cach
+rm 'dummy.txt'
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git con[K[Kheckout -b question3
+D	dummy.txt
+Switched to a new branch 'question3'
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git [K[K[K[Kgit add writeup.txt 
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit -m "forgot to str[Kart script again so re doing this t[Kstep"
+[question3 f20dae4] forgot to start script again so redoing this step
+ 2 files changed, 1 insertion(+), 4 deletions(-)
+ delete mode 100644 dummy.txt
+davisos2@linux-03:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git push 0u[K[K-u
+fatal: The current branch question3 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin question3
+
+davisos2@linux-03:~/Documents/CSCScript started on 2020-04-09 12:23:35-0700
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs$ git push --set-upstream origin question3[Kgit [K[K[K[Kcd L[Klab-1-Simone-Davison/
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ cd lab-1-Simone-Davison/git push --set-upstream origin question3[16Pcd lab-1-Simone-Davison/[Kcd lab-1-Simone-Davison/git push --set-upstream origin question3commit -m "forgot to start script again so reddoing this step"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[29Padd writeup.txt 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crev-parse --abbrev-ref HEAD
+question3
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git rev-parse --abbrev-ref HEAD[7Pcd lab-1-Simone-Davison/git push --set-upstream origin question3commit -m "forgot to start script again so reddoing this step"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[29Padd writeup.txt 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git add writeup.txt rev-parse --abbrev-ref HEAD[7Pcd lab-1-Simone-Davison/git push --set-upstream origin question3commit -m "forgot to start script again so reddoing this step"
+On branch question3
+Your branch is up to date with 'origin/question3'.
+
+Untracked files:
+	[31mdummy.txt[m
+
+nothing added to commit but untracked files present
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit -m "forgot to start script again so reddoing this step"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[29Padd writeup.txt 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crev-parse --abbrev-ref HEAD[7Pcd lab-1-Simone-Davison/git push --set-upstream origin question3
+Username for 'https://github.com': davisos22 @wwu.edu
+Password for 'https://davisos2@wwu.edu@github.com': 
+Branch 'question3' set up to track remote branch 'question3' from 'origin'.
+Everything up-to-date
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git checkout master
+error: The following untracked working tree files would be overwritten by checkout:
+	dummy.txt
+Please move or remove them before you switch branches.
+Aborting
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git checkout masterpush --set-upstream origin question3commit -m "forgot to start script again so reddoing this step"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[29Padd writeup.txt 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crev-parse --abbrev-ref HEAD[7Pcd lab-1-Simone-Davison/git rev-parse --abbrev-ref HEAD
+question3
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git up[K[Kpush [K[K[K[K[Kad su[K[Kdiu[K[Kummy [K.txt
+git: 'ad' is not a git command. See 'git --help'.
+
+The most similar commands are
+	add
+	am
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git ad dummy.txtd dummy.txt
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit -m "For some[K[K[K[K[K[K[K[KDummy eas[K[K[Kwasn'y [K[Kt deleye[K[Kted off o [Kf master  but lef[K[K[K[K was off question [K3 :[K[K. Prbably because I'm redoing this"
+[question3 8dc37ae] Dummy wasn't deleted off of master but was off question3. Prbably because I'm redoing this
+ 1 file changed, 3 insertions(+)
+ create mode 100644 dummy.txt
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git push commit -m "Dummy wasn't deleted off of master  but was off question3. Prbably because I'm redoing this"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd dummy.txt[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P dummy.txtrev-parse --abbrev-ref HEAD[12Pcheckout masterrev-parse --abbrev-ref HEAD[15Pad dummy.txtd dummy.txtcommit -m "Dummy wasn't deleted off of master  but was off question3. Prbably because I'm redoing this"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-u
+Username for 'https://github.com': davisos2@wwu.edu
+Password for 'https://davisos2@wwu.edu@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 434 bytes | 434.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Simone-Davison
+   f20dae4..8dc37ae  question3 -> question3
+Branch 'question3' set up to track remote branch 'question3' from 'origin'.
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git merge quesrio[K[K[Ktion 3
+merge: question - not something we can merge
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git merge question 3[1Pcheckout mastermerge question 3[1Pcheckout mastermerge question 3[1P 3n 3[C[1P3
+Updating 9bc70e9..8dc37ae
+Fast-forward
+ writeup.txt | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git branch -d question3
+Deleted branch question3 (was 8dc37ae).
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git rm dunn[K[Kmmy.txt -cach-cach
+rm 'dummy.txt'
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git checkout dummy.txt
+error: pathspec 'dummy.txt' did not match any file(s) known to git.
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git rm
+usage: git rm [<options>] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git rmcheckout dummy.txtrm dummy.txt --cached
+fatal: pathspec 'dummy.txt' did not match any files
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git add git[K[K[K[K dummy.txt
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit -m "Used a wrong command so it [K[K[Kdummy is o n repo but nor [K[Kt connected to my [K[K[K[K[K[Kto my computer[K[K[K[K[K[K[K[Kclone"
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git pi[Kush -u
+Username for 'https://github.com': davisos2@wwi.  u.edu
+Password for 'https://davisos2@wwu.edu@github.com': 
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/csci241-20s/lab-1-Simone-Davison
+   9bc70e9..8dc37ae  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git rm dummy.txt --cas[Kcj[Khed
+rm 'dummy.txt'
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git rm dummy.txt --cached[14Ppush -ucommit -m "Used a wrong command so dummy is onn repo but not connected to my clone"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd dummy.txt[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm dummy.txt --cached[Kcheckout dummy.txtrm dummy.txt --cachbranch -d question3[4Pmerge[C[C[C[C[C[C[C[C[C[C[4@branch -d[C[C[C[C[C[C[C[C[C[Crm dummy.txt --cachbranch -d question3[4Pmerge[C[C[C[C[C[C[C[C[C[C 3[1Pcheckout master[8Ppush -ucommit -m "Dummy wasn't deleted off of master  but was off question3. Prbably because I'm redoing this"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd dummy.txt[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P dummy.txtd dummy.txtcommit -m "Dummy wasn't deleted off of master  but was off question3. Prbably because I'm redoing this"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd dummy.txt[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P dummy.txtrev-parse --abbrev-ref HEAD
+master
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git rev-parse --abbrev-ref HEAD[6Pm dummy.txt --cached[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K--cached dummy.txt
+fatal: pathspec 'dummy.txt' did not match any files
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git rm --cached dummy.txtev-parse --abbrev-ref HEAD[6Pm dummy.txt --cached[14Ppush -ucommit -m "Used a wrong command so dummy is onn repo but not connected to my clone"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd dummy.txt[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "Used a wrong command so dummy is onn repo but not connected to my clone"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd dummy.txt[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git add dummy.txt[8@rm --cache[C[C[C[C[C[C[C[C[C[C[Cev-parse --abbrev-ref HEAD[6Pm dummy.txt --cached[14Ppush -ucommit -m "Used a wrong command so dummy is onn repo but not connected to my clone"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit -m "Used a wrong command so dummy is onn repo but not connected to my clone"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd dummy.txt[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@rm --cache[C[C[C[C[C[C[C[C[C[C[Cev-parse --abbrev-ref HEAD[6Pm dummy.txt --cached[14Ppush -u
+Username for 'https://github.com': davisos2@wwu.edu
+Password for 'https://davisos2@wwu.edu@github.com': 
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Everything up-to-date
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git push -ucommit -m "Used a wrong command so dummy is onn repo but not connected to my clone"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd dummy.txt[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+davisos2@linux-11:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git add dummy.txtScript started on 2020-04-09 12:52:09-0700
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs$ ls
+lab-1-Simone-Davison  typescript
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs$ cd labs[K-1-Simone-Davison/
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit dumm[K[K[K[K[K[K[K[K[K[K[Krm -f dummy.txt
+rm 'dummy.txt'
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git checkout dummy.txt
+error: pathspec 'dummy.txt' did not match any file(s) known to git.
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git cghe[K[K[Kheckoiu[K[Kut
+D	dummy.txt
+Your branch is up to date with 'origin/master'.
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git checkiut[K[K[Kout dummy.txt
+error: pathspec 'dummy.txt' did not match any file(s) known to git.
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ it [K[K[Kgit pull dummy.txt
+fatal: 'dummy.txt' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git branch -d question3
+error: branch 'question3' not found.
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git pull
+Already up to date.
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ touch text.txt
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git push [K[K[K[K[Kadd text.txt
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit -m "text[K[K[K[Ktrying to add and remove remotle[Kly  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[Kely  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K"
+[master c1fe907] trying to add and remove remotely
+ 2 files changed, 4 deletions(-)
+ delete mode 100644 dummy.txt
+ create mode 100644 text.txt
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git push -i[Ku
+Username for 'https://github.com': daci  visos2@wwiu  u.edu
+Password for 'https://davisos2@wwu.edu@github.com': 
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  50% (1/2)   Writing objects: 100% (2/2)   Writing objects: 100% (2/2), 277 bytes | 277.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Simone-Davison
+   ca6d49b..c1fe907  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git rm -f [K[K[K[K
+usage: git rm [<options>] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git rm -f text.txt
+rm 'text.txt'
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ giit \\[K[K[K[K[Kt status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mdeleted:    text.txt[m
+
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git piu[K[Kuis[K[Ksh -u
+Username for 'https://github.com': davisos2@wwu.edu
+Password for 'https://davisos2@wwu.edu@github.com': 
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Everything up-to-date
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git push -u[K[Korigin master
+Username for 'https://github.com': davison@ 2@wwu.edu
+Password for 'https://davison2@wwu.edu@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/csci241-20s/lab-1-Simone-Davison/'
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git push origin master
+Username for 'https://github.com': davisos2@wwu.edu
+Password for 'https://davisos2@wwu.edu@github.com': 
+Everything up-to-date
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mdeleted:    text.txt[m
+
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git statuspush origin master-u[K[1Pstatusrm -f text.txt[8Pstatuspush -uorigin master[12Pstatus[Kgit status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mdeleted:    text.txt[m
+
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit -m "remove text"
+[master 84f65f4] remove text
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 text.txt
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git push
+Username for 'https://github.com': da  davisos2@wwu.edu
+Password for 'https://davisos2@wwu.edu@github.com': 
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  50% (1/2)   Writing objects: 100% (2/2)   Writing objects: 100% (2/2), 226 bytes | 226.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Simone-Davison
+   c1fe907..84f65f4  master -> master
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git checkout -b question3[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kheckout question3
+Branch 'question3' set up to track remote branch 'question3' from 'origin'.
+Switched to a new branch 'question3'
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git checkiut [K[K[K[Kout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git branch -d question3
+Deleted branch question3 (was 8dc37ae).
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git branch
+[?1h=* [32mmaster[m[m
+[K[?1l>davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git checkout question3
+Branch 'question3' set up to track remote branch 'question3' from 'origin'.
+Switched to a new branch 'question3'
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ brancgh[K[Kh
+
+Command 'branch' not found, but can be installed with:
+
+apt install rheolef
+Please ask your administrator.
+
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ branch\[K[K[K[K[K[K[Kgit branch
+[?1h=  master[m[m
+* [32mquestion3[m[m
+[K[?1l>davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ branchg[K -[K[K[K[K[K[K[K[Kgit checki[Kout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ branch
+
+Command 'branch' not found, but can be installed with:
+
+apt install rheolef
+Please ask your administrator.
+
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git branch
+[?1h=* [32mmaster[m[m
+  question3[m[m
+[K[?1l>davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ it [K[K[Kgot[K[Kit branch -d question3
+Deleted branch question3 (was 8dc37ae).
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ gradle [K[K[K[K[K[K[Kcd srdc[K[Kc/main/java/lab1
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison/src/main/java/lab1$ ls
+Hello.java
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison/src/main/java/lab1$ gradle build
+
+Welcome to Gradle 6.1!
+
+Here are the highlights of this release:
+ - Dependency cache is relocatable
+ - Configurable compilation order between Groovy, Java & Scala
+ - New sample projects in Gradle's documentation
+
+For more details see https://docs.gradle.org/6.1/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [63ms][m[38D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [163ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [263ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [364ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [463ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [564ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [664ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [764ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [864ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [963ms][m[39D[1B[1m> Evaluating settings > Compiling /home/davisos2/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison/settings.gradle into[m[121D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [1s][m[0K[36D[2B[1A[1m> Evaluating settings[m[0K[21D[1B[2A[0K
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Project directory '/home/davisos2/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison/src/main/java/lab1' is not part of the build defined by settings file '/home/davisos2/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 6s
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdavisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison/src/main/java/lab1$ gradle run
+
+[1A
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Project directory '/home/davisos2/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison/src/main/java/lab1' is not part of the build defined by settings file '/home/davisos2/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 713ms
+
+[1A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0m[?12l[?25hdavisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison/src/main/java/lab1$ gradle run[Kgradle runbuild
+
+[1A
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Project directory '/home/davisos2/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison/src/main/java/lab1' is not part of the build defined by settings file '/home/davisos2/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 535ms
+
+[1A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0m[?12l[?25hdavisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison/src/main/java/lab1$ build[K[K[K[K[Kgradle build --stacktrace
+
+[1A
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Project directory '/home/davisos2/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison/src/main/java/lab1' is not part of the build defined by settings file '/home/davisos2/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+
+* Try:
+Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Exception is:
+org.gradle.api.InvalidUserDataException: Project directory '/home/davisos2/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison/src/main/java/lab1' is not part of the build defined by settings file '/home/davisos2/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+        at org.gradle.initialization.AbstractProjectSpec.selectProject(AbstractProjectSpec.java:42)
+        at org.gradle.initialization.DefaultSettingsLoader.setDefaultProject(DefaultSettingsLoader.java:88)
+        at org.gradle.initialization.DefaultSettingsLoader.findAndLoadSettings(DefaultSettingsLoader.java:52)
+        at org.gradle.initialization.SettingsAttachingSettingsLoader.findAndLoadSettings(SettingsAttachingSettingsLoader.java:35)
+        at org.gradle.internal.composite.CommandLineIncludedBuildSettingsLoader.findAndLoadSettings(CommandLineIncludedBuildSettingsLoader.java:34)
+        at org.gradle.internal.composite.ChildBuildRegisteringSettingsLoader.findAndLoadSettings(ChildBuildRegisteringSettingsLoader.java:52)
+        at org.gradle.internal.composite.CompositeBuildSettingsLoader.findAndLoadSettings(CompositeBuildSettingsLoader.java:35)
+        at org.gradle.initialization.DefaultSettingsPreparer.prepareSettings(DefaultSettingsPreparer.java:36)
+        at org.gradle.initialization.BuildOperatingFiringSettingsPreparer$LoadBuild.doLoadBuild(BuildOperatingFiringSettingsPreparer.java:59)
+        at org.gradle.initialization.BuildOperatingFiringSettingsPreparer$LoadBuild.run(BuildOperatingFiringSettingsPreparer.java:54)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+        at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+        at org.gradle.initialization.BuildOperatingFiringSettingsPreparer.prepareSettings(BuildOperatingFiringSettingsPreparer.java:42)
+        at org.gradle.initialization.DefaultGradleLauncher.prepareSettings(DefaultGradleLauncher.java:197)
+        at org.gradle.initialization.DefaultGradleLauncher.doClassicBuildStages(DefaultGradleLauncher.java:141)
+        at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
+        at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:110)
+        at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:60)
+        at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:57)
+        at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:85)
+        at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:78)
+        at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:189)
+        at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
+        at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:78)
+        at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:57)
+        at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
+        at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+        at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:63)
+        at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+        at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
+        at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)
+        at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:45)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+        at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+        at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
+        at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:50)
+        at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:47)
+        at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:80)
+        at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
+        at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
+        at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
+        at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
+        at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+        at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
+        at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:60)
+        at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:38)
+        at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
+        at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
+        at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
+        at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:26)
+        at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+        at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+        at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:60)
+        at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:32)
+        at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+        at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:41)
+        at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
+        at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
+        at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:68)
+        at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:37)
+        at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+        at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:39)
+        at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+        at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.exScript started on 2020-04-09 13:48:33-0700
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs$ mv typescript lab-1-Simone-Davison/typescript
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs$ labs[K[K[K[Kcd lab-1-Simone-Davison/
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ ls
+bin  build  build.gradle  gradle  settings.gradle  src	typescript  username.txt  writeup.txt
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ build gradle
+
+Command 'build' not found, did you mean:
+
+  command 'sbuild' from deb sbuild
+  command 'bwild' from deb bacula-director
+  command 'guild' from deb guile-2.0-dev
+  command 'guild' from deb guile-2.2-dev
+  command 'buildd' from deb buildd
+  command 'xbuild' from deb mono-xbuild
+  command 'pbuild' from deb pbuilder-scripts
+
+Try: apt install <deb name>
+
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ gradle build
+
+[1A[1m<[0;1m-------------> 0% INITIALIZING [7ms][m[37D[1B[1A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 612ms
+[0K
+[1A[1m<[0;32;1m=============[0;39;1m> 100% EXECUTING [107ms][m[38D[1B[1A5 actionable tasks: 5 up-to-date[0K
+[0K
+[1A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0m[?12l[?25hdavisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ gradle build
+
+[1A
+[32;1mBUILD SUCCESSFUL[0;39m in 643ms
+5 actionable tasks: 5 up-to-date
+
+[1A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0m[?12l[?25hdavisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ gradle run
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [13ms][m[37D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [113ms][m[37D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[31;1m> Task :run[0;39m[31m FAILED[39m
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+        at lab1.Hello.main(Hello.java:5)
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':run'.
+[33m> [39mProcess 'command '/usr/lib/jvm/java-11-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 626ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdavisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ gradle run --args="yo"
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [18ms][m[37D[1B[1m> Loading projects[m[18D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [118ms][m[37D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello, yo!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 650ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdavisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git push[K[K[K[Kadd src/main.h[Kjava/[K[K[K[K[K[K/java/lab1/Hello.java
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ gt [K[Kit push [K [K[K[K[K[Kush[K[K[Kpush -[Kcommit -[K[K[K[K[K[K[K[K[K[K[K[K[Kcommit -m :[K"forgot to start script so appendin g it and m[Kadding in typescript [K to lab 1"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+	[31m.classpath[m
+	[31m.gradle/[m
+	[31m.project[m
+	[31m.settings/[m
+	[31mbin/[m
+	[31mbuild/[m
+	[31mtypescript[m
+
+nothing added to commit but untracked files present
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git add typescript.[K
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git add typescriptcommit -m "forgot to start script so appendingg it and adding in typescript to lab 1"
+[master e1727e2] forgot to start script so appending it and adding in typescript to lab 1
+ 1 file changed, 1783 insertions(+)
+ create mode 100644 typescript
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git push
+Username for 'https://github.com': davisos22wwu    @wwu.edu
+Password for 'https://davisos2@wwu.edu@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 14.87 KiB | 2.97 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Simone-Davison
+   8212a28..e1727e2  master -> master
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ cd ..
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs$ cd lab-1-Simone-Davison/
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ ls
+bin  build  build.gradle  gradle  settings.gradle  src	typescript  username.txt  writeup.txt
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ script -a
+Script started, file is typescript
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ ls[K[Kcd [K[K[Kgradle build
+
+
+[2A[1m<[0;32;1m==========[0;39;1m---> 78% EXECUTING [100ms][m[37D[1B[1m> :test[m[7D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 623ms
+5 actionable tasks: 5 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :test[m[7D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdavisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ gradle build
+
+[1A
+[32;1mBUILD SUCCESSFUL[0;39m in 615ms
+5 actionable tasks: 5 up-to-date
+
+[1A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0m[?12l[?25hdavisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ gradle build[Kgradle run
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [14ms][m[37D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [114ms][m[37D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[31;1m> Task :run[0;39m[31m FAILED[39m
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+        at lab1.Hello.main(Hello.java:5)
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':run'.
+[33m> [39mProcess 'command '/usr/lib/jvm/java-11-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 649ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdavisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ gradle run --args="u[Kyo"
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [20ms][m[37D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [120ms][m[37D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello, yo!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 666ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdavisos2@linux-05:~/Documents/CSCI145/Script started on 2020-04-09 13:57:18-0700
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ ls[K[Kcd [K[K[Kgradle build
+
+
+[2A[1m<[0;32;1m==========[0;39;1m---> 78% EXECUTING [100ms][m[37D[1B[1m> :test[m[7D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 623ms
+5 actionable tasks: 5 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :test[m[7D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdavisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ gradle build
+
+[1A
+[32;1mBUILD SUCCESSFUL[0;39m in 615ms
+5 actionable tasks: 5 up-to-date
+
+[1A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0m[?12l[?25hdavisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ gradle build[Kgradle run
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [14ms][m[37D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [114ms][m[37D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[31;1m> Task :run[0;39m[31m FAILED[39m
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+        at lab1.Hello.main(Hello.java:5)
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':run'.
+[33m> [39mProcess 'command '/usr/lib/jvm/java-11-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 649ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdavisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ gradle run --args="u[Kyo"
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [20ms][m[37D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [120ms][m[37D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello, yo!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 666ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdavisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git add [K[K[K[Kadd Hello.java
+fatal: pathspec 'Hello.java' did not match any files
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git add Hello.java[CsHello.javarHello.javacHello.java/Hello.java/Hello.java[1PHello.javamHello.javaaHello.javaiHello.javanHello.java/Hello.javajHello.javaaHello.javavHello.javaaHello.java/Hello.javalHello.javaaHello.javabHello.java1Hello.java
+fatal: pathspec 'src/main/java/lab1Hello.java' did not match any files
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git add src/main/java/lab1Hello.java/Hello.java
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ gt[Kit add y[Ktypescript
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git [K[Kt status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   typescript[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.classpath[m
+	[31m.gradle/[m
+	[31m.project[m
+	[31m.settings/[m
+	[31mbin/[m
+	[31mbuild/[m
+
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git p[Kcommit -m "updatd\[K[Ked Hello.java and am now addi ng in script"
+[master c8c98f8] updated Hello.java and am now adding in script
+ 1 file changed, 152 insertions(+), 1 deletion(-)
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ java[K[K[K[Kgit push [K
+Username for 'https://github.com': davisos2@wwu.edu
+Password for 'https://davisos2@wwu.edu@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 1.60 KiB | 328.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/csci241-20s/lab-1-Simone-Davison
+   e1727e2..c8c98f8  master -> master
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ script -a
+Script started, file is typescript
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ 3[K#didnt[K't catch me moving files and rema[K[Knaming them
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ touch dummy.java[K[K[K[Ktxt
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ mv[K[Ki[Ki[Kgit mv dummy.txt[C[C[C[C[C[C[C[C[C[C[C superdummy.txt
+fatal: not under version control, source=dummy.txt, destination=superdummy.txt
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git add dummy.txt
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit -m "attempting to rem=[K[Kname the fiuk[K[Kke:[K[K[K[Kile"
+[master 17f8b04] attempting to rename the file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 dummy.txt
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ java [K[K[K[K[Kgit push
+Username for 'https://github.com': davisos2@wwu.ediu  u
+Password for 'https://davisos2@wwu.edu@github.com': 
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  50% (1/2)   Writing objects: 100% (2/2)   Writing objects: 100% (2/2), 272 bytes | 272.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Simone-Davison
+   c8c98f8..17f8b04  master -> master
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ gt[Kit mv dummy.txt superdummy.txt
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git push
+Username for 'https://github.com': davisos2@wwu.edu
+Password for 'https://davisos2@wwu.edu@github.com': 
+Everything up-to-date
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mrenamed:    dummy.txt -> superdummy.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.classpath[m
+	[31m.gradle/[m
+	[31m.project[m
+	[31m.settings/[m
+	[31mbin/[m
+	[31mbuild/[m
+
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git [K[K[K[Kgit add superd[Kdummy.txt
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit "name [K[K[K[K[K[K-m "name s[Kchange success!"
+[master 4eed251] name change success!
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename dummy.txt => superdummy.txt (100%)
+davisos2@linux-05:~/Documents/CSCI145/CSCCSCI241/labs/lab-1-Simone-Davison$ git add [K[K[K[Kadd Hello.java
+fatal: pathspec 'Hello.java' did not match any files
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git add Hello.java[CsHello.javarHello.javacHello.java/Hello.java/Hello.java[1PHello.javamHello.javaaHello.javaiHello.javanHello.java/Hello.javajHello.javaaHello.javavHello.javaaHello.java/Hello.javalHello.javaaHello.javabHello.java1Hello.java
+fatal: pathspec 'src/main/java/lab1Hello.java' did not match any files
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git add src/main/java/lab1Hello.java/Hello.java
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ gt[Kit add y[Ktypescript
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git [K[Kt status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   typescript[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.classpath[m
+	[31m.gradle/[m
+	[31m.project[m
+	[31m.settings/[m
+	[31mbin/[m
+	[31mbuild/[m
+
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git p[Kcommit -m "updatd\[K[Ked Hello.java and am now addi ng in script"
+[master c8c98f8] updated Hello.java and am now adding in script
+ 1 file changed, 152 insertions(+), 1 deletion(-)
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ java[K[K[K[Kgit push [K
+Username for 'https://github.com': davisos2@wwu.edu
+Password for 'https://davisos2@wwu.edu@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 1.60 KiB | 328.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/csci241-20s/lab-1-Simone-Davison
+   e1727e2..c8c98f8  master -> master
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ script -a
+Script started, file is typescript
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ 3[K#didnt[K't catch me moving files and rema[K[Knaming them
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ touch dummy.java[K[K[K[Ktxt
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ mv[K[Ki[Ki[Kgit mv dummy.txt[C[C[C[C[C[C[C[C[C[C[C superdummy.txt
+fatal: not under version control, source=dummy.txt, destination=superdummy.txt
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git add dummy.txt
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit -m "attempting to rem=[K[Kname the fiuk[K[Kke:[K[K[K[Kile"
+[master 17f8b04] attempting to rename the file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 dummy.txt
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ java [K[K[K[K[Kgit push
+Username for 'https://github.com': davisos2@wwu.ediu  u
+Password for 'https://davisos2@wwu.edu@github.com': 
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  50% (1/2)   Writing objects: 100% (2/2)   Writing objects: 100% (2/2), 272 bytes | 272.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Simone-Davison
+   c8c98f8..17f8b04  master -> master
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ gt[Kit mv dummy.txt superdummy.txt
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git push
+Username for 'https://github.com': davisos2@wwu.edu
+Password for 'https://davisos2@wwu.edu@github.com': 
+Everything up-to-date
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mrenamed:    dummy.txt -> superdummy.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.classpath[m
+	[31m.gradle/[m
+	[31m.project[m
+	[31m.settings/[m
+	[31mbin/[m
+	[31mbuild/[m
+
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git [K[K[K[Kgit add superd[Kdummy.txt
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git commit "name [K[K[K[K[K[K-m "name s[Kchange success!"
+[master 4eed251] name change success!
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename dummy.txt => superdummy.txt (100%)
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git push
+Username for 'https://github.com': davisos2@wwu.edu
+Password for 'https://davisos2@wwu.edu@github.com': 
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  50% (1/2)   Writing objects: 100% (2/2)   Writing objects: 100% (2/2), 246 bytes | 246.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Simone-Davison
+   17f8b04..4eed251  master -> master
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git remove [K[K[K[K[K[Km -ca[K[Kf superdummy.java
+fatal: pathspec 'superdummy.java' did not match any files
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git rm -f superdummy.java[K[K[K[Ktxt
+rm 'superdummy.txt'
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ status[K[K[K[K[K[Kgt [K[Kit status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mdeleted:    superdummy.txt[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   typescript[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.classpath[m
+	[31m.gradle/[m
+	[31m.project[m
+	[31m.settings/[m
+	[31mbin/[m
+	[31mbuild/[m
+
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ java push[K[K[K[K[K[K[K[K[Kgit push
+Username for 'https://github.com': davisos2@wwu.edu
+Password for 'https://davisos2@wwu.edu@github.com': 
+Everything up-to-date
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ ls
+bin  build  build.gradle  gradle  settings.gradle  src	typescript  username.txt  writeup.txt
+davisos2@linux-05:~/Documents/CSCI145/CSCI241/labs/lab-1-Simone-Davison$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mdeleted:    superdummy.txt[m
